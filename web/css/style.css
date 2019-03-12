@@ -136,6 +136,7 @@ ul {
     color: #fff;
     display: inline-block;
     letter-spacing: 2px;
+    font-weight: 700;
 }
 .info-contact-agile ul li p a:hover{color:#70775d;}
 .info-contact-agile ul li span,.news-date ul li span,.list-social-icons ul li span{
