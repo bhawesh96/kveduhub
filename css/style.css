@@ -246,8 +246,8 @@ nav.navbar.navbar-expand-lg.navbar-light {
 /*-- banner --*/ 
 .one-img{  background: url(../images/b1.jpg)no-repeat center;}
 .two-img{  background: url(../images/b2.jpg)no-repeat center;}
-.three-img{  background: url(../images/logo.png)no-repeat} 
-.slider-img{  background-size: cover;
+.three-img{  background: url(../images/bg3.png)no-repeat} 
+.slider-img{  background-size: cover; background-position-x: center;
 min-height: 800px;}  
 .rslides {
 position: relative;
@@ -1424,8 +1424,13 @@ footer p {
     margin: 0px 4px;
 }
 .slider-img {
-    min-height: 494px;
+    /* min-height: 494px; */
+    min-height: 370px;
+    background-position-y: 142px;
+    background-size: 535px 250px;
 }
+
+
 .slider-info {
     padding: 15em 0 0;
 }
